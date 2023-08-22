@@ -12,6 +12,8 @@ const gulp = require('gulp'),
   tap = require('gulp-tap'),
   replace = require('gulp-replace');
 
+let convertEncoding = require('gulp-convert-encoding');
+var header = require('gulp-header');
 let toCopy = [
   'node_modules/highlight.js/build/highlight.pack.js'
 ];
@@ -77,6 +79,8 @@ gulp.task('build-sass', ['assets'], () => {
 gulp.task('markdown-build', () => {
   return gulp.src(['./src/**/*.md'])
     .pipe(markdown())
+    .pipe(header('\ufeff'))
+    //.pipe(convertEncoding({ from: "utf8", to: "windows1257" }))
     .pipe(gulp.dest('./dist'));
 });
 

@@ -2,11 +2,12 @@
 /* you must not change other scss files */
 
 body {
-  --currentColor: var(--blue);
+  // available colors are: blue, green, purple, orange and grey
+  --currentColor: var(--grey);
 
   main div {
     img {
-      height: 224px;
+      height: 230px;
     }
   }
 }
