@@ -1,4 +1,10 @@
 
+# Hospital services
+
+Go to any "Kauno miesto poliklinika" and register to a family doctor.
+Then through the family doctor you can order blood tests, register to specialists and so on.
+As long as the prescription was given by the family doctor the service will be free of charge, unless the doctor will say otherwise.
+
 # Public Transportation 
 
 ```text
@@ -15,15 +21,6 @@ ltglink.lt/en - for pre-ordering train tickets
 
 `Bolt | gofast | forus`
 
-# Local Cuisine
-
-* **Šaltibarščiai** – a.k.a Barbie soup. cold summer beetroot soup
-* **Cepelinai** (zeppelins) – potato dumplings stuffed with meat, mushrooms, or cheese
-* **Šakotis** - sort of butter cookie, buy the one with butter and not margarine 
-
-# Small coins
-
-Go to a self-checkout in Maxima that accepts cash and feed it all your coins. It will return you change with big coins
 
 # Paying for Utilities
 
