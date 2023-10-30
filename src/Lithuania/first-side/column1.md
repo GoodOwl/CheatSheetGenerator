@@ -27,6 +27,3 @@
 * **IKI** - Has some exclusive products that only they have, so they end up being expensive
 * **Šilas** - no loyalty card, their shops are usually small. They have nice snacks and prepared food.
 
-# Food ordering (meals and groceries)
-
-`Bolt | Wolt | Barbora`

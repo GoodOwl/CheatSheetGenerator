@@ -30,11 +30,7 @@ Electricity, internet, water, etc. can be paid by a bank transfer through any Li
 
 Vaccination from ticks carrying encephalitis is highly recommended. Go to any pharmacy(vaistine) and ask them what is the process.
 
-# consulting services
+# Food ordering (meals and groceries)
 
-More information and free help can be found here
+`Bolt | Wolt | Barbora`
 
-```text
-International House Vilnius - ihvilnius.lt
-Work In Lithuania - workinlithuania.lt
-```

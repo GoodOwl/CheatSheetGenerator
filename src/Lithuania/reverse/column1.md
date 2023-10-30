@@ -6,7 +6,9 @@
 * **Šakotis** - sort of butter cookie, buy the one with butter and not margarine 
 
 # Free attractions - Last Sunday
-The entrance to museums and galleries managed by the Lithuanian Ministry of Culture is free of charge on the last Sunday of each month. Some places still require to order a ticket (for free) so check ahead to avoid the queues.
+The entrance to museums and galleries managed by the Lithuanian Ministry of Culture is free of charge on the last Sunday of each month.
+Some places require to order a ticket (for free) so check ahead of time to avoid the queues.
+There is no place with a list of ALL such places, but usually you could find the information on museum's website.
 
 # Getting rid of small coins
 

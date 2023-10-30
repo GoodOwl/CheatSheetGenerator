@@ -11,3 +11,12 @@ Anyway, make sure to compare prices before buying:
 * kainos.lt
 * kaina24.lt
 * pricer.lt
+
+# consulting services
+
+More information and free help can be found here
+
+```text
+International House Vilnius - ihvilnius.lt
+Work In Lithuania - workinlithuania.lt
+```
