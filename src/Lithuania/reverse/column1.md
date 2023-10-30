@@ -5,6 +5,9 @@
 * **Cepelinai** (zeppelins) – potato dumplings stuffed with meat, mushrooms, or cheese
 * **Šakotis** - sort of butter cookie, buy the one with butter and not margarine 
 
+# Free attractions - Last Sunday
+The entrance to museums and galleries managed by the Lithuanian Ministry of Culture is free of charge on the last Sunday of each month. Some places still require to order a ticket (for free) so check ahead to avoid the queues.
+
 # Getting rid of small coins
 
 Go to a self-checkout in Maxima that accepts cash and feed it all your coins. It will return you change with big coins
