@@ -11,6 +11,7 @@ As long as the prescription was given by the family doctor the service will be f
 Trafi app - for navigation. has buses live location
 Žiogas app - used for paying for rides. 
 ltglink.lt/en - for pre-ordering train tickets
+stops.lt/kaunas - bus schedules and live locations
 ```
 
 # rental cars
