@@ -26,6 +26,5 @@ it is very popular to buy second hand stuff in Lithuania. Here are some of the o
 # Heating season
 ```text
 Central heating in Lithuania is turned on when average temperatures drop below 10 degrees three days in a row.
-
 Heating is turned off when average temperatures gets above 10 degrees three days in a row.
 ```
