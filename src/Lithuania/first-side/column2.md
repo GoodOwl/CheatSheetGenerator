@@ -1,7 +1,7 @@
 
 # Hospital services
 
-**Any person who works in Lithuania or self-pays the PSD contributions is eligible for free health care**
+**Any person who works in Lithuania or self-pays the PSD contributions is eligible for free health care.**
 Go to any "Kauno miesto poliklinika" and register to a family doctor.
 Then through the family doctor you can order blood tests, register to specialists and so on.
 As long as the prescription was given by the family doctor the service will be free of charge, unless the doctor will say otherwise.
