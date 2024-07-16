@@ -15,7 +15,7 @@
 
 `112 - for all - police, fire, health`
 
-# Super markets
+# Supermarkets
 
 * Get loyalty cards for every shop, it will save you a lot!
 * Most of the shops have limited time discounts to keep the customers attracted ;)
