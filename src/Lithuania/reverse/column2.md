@@ -13,9 +13,17 @@ registracija.kaunas.lt - Apply through here
 A common practice for online shopping is ordering from **amazon.de**.
 
 Anyway, make sure to compare prices before buying:
-* kainos.lt
-* kaina24.lt
-* pricer.lt
+```text
+kainos.lt | kaina24.lt | pricer.lt
+```
+For Household appliances (expensive without loyalty card)
+```text
+Senukai | Ermitažas
+```
+For furniture
+```text
+Ikea | Jysk | baldai1.lt (online shop)
+```
 
 # consulting services
 
