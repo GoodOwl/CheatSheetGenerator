@@ -3,6 +3,7 @@
 
 * **Šaltibarščiai** – a.k.a Barbie soup. cold summer beetroot soup
 * **Cepelinai** (zeppelins) – potato dumplings stuffed with meat, mushrooms, or cheese
+ **Kibinai** – Pastry filled with meat, mushrooms and/or vegetables
 * **Šakotis** - sort of butter cookie, buy the one with butter and not margarine 
 
 # Free attractions - Last Sunday
