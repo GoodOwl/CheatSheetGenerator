@@ -9,7 +9,7 @@
   <body>
     <input type="checkbox" id="showPreview"/>
     <div class="first-side">
-      @@include('../../dist/common/first-side/header.html', {"title": "Beginner's guide for living in Lithuania (2024-08)", "subtitle": "With Kaunas specifications", "imageName": "@@folder"})
+      @@include('../../dist/common/first-side/header.html', {"title": "Git cheat sheet", "subtitle": "Improve your Git skills", "imageName": "@@folder"})
 
       <main>
         <div class="column1">
@@ -20,12 +20,15 @@
         </div>
       </main>
 
+      @@include('../../dist/common/footer.html', {"class": "print-only"})
+
+
     </div>
 
     <hr class="no-print"/>
 
     <div class="reverse">
-      @@include('../../dist/common/reverse/header.html', {"title": "Lithuania cheat sheet", "imageName": "@@folder"})
+      @@include('../../dist/common/reverse/header.html', {"title": "Git cheat sheet", "imageName": "@@folder"})
 
       <main>
         <div class="column1">
@@ -35,6 +38,8 @@
           @@include('../../dist/@@folder/reverse/column2.html')
         </div>
       </main>
+
+      @@include('../../dist/common/footer.html')
     </div>
 
     <script src="../common/lib/highlight.pack.js"></script>
