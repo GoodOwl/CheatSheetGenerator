@@ -88,7 +88,7 @@ const copyAssets = () => {
 };
 
 const exportAssets = () => {
-  return gulp.src('./assets/**/*').pipe(gulp.dest('./docs/assets'));
+  return gulp.src('./assets/**/*', { encoding: false }).pipe(gulp.dest('./docs/assets'));
 };
 
 const exportJS = () => {
