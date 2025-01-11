@@ -1,0 +1,14 @@
+﻿<p> docker version: <strong>17.09+</strong> - Date: <strong>October 2017</strong></p>
+<h1>Cluster initialization</h1>
+<h2>On the first Manager node</h2>
+<p>Initialize the cluster<br><code>docker swarm init --advertise-addr MANAGER-IP</code></p>
+<p>Retrieve the token to add a new Manager node<br><code>docker swarm join-token manager</code></p>
+<p>Retrieve the token to add a new Worker node<br><code>docker swarm join-token worker</code></p>
+<h2>On every new node</h2>
+<p>Join the node to the cluster<br><code>docker swarm join --token TOKEN</code></p>
+<h1>Cluster events</h1>
+<p>Show real time events
+<code>docker events</code></p>
+<h1>Manage networks</h1>
+<p>Create a distributed overlay network
+<code>docker network create --driver overlay NETWORK</code></p>
