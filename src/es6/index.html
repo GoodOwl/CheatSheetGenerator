@@ -9,18 +9,18 @@
   <body>
     <input type="checkbox" id="showPreview"/>
     <div class="first-side">
-      @@include('../../docs/common/first-side/header.html', {"title": "es6 cheat sheet", "subtitle": "Ecmascript 6", "imageName": "@@folder"})
+      @@include('../../dist/common/first-side/header.html', {"title": "es6 cheat sheet", "subtitle": "Ecmascript 6", "imageName": "@@folder"})
 
       <main>
         <div class="column1">
-          @@include('../../docs/@@folder/first-side/column1.html')
+          @@include('../../dist/@@folder/first-side/column1.html')
         </div>
         <div class="column2">
-          @@include('../../docs/@@folder/first-side/column2.html')
+          @@include('../../dist/@@folder/first-side/column2.html')
         </div>
       </main>
 
-      @@include('../../docs/common/footer.html', {"class": "print-only"})
+      @@include('../../dist/common/footer.html', {"class": "print-only"})
 
 
     </div>
@@ -28,18 +28,18 @@
     <hr class="no-print"/>
 
     <div class="reverse">
-      @@include('../../docs/common/reverse/header.html', {"title": "es6 cheat sheet", "imageName": "@@folder"})
+      @@include('../../dist/common/reverse/header.html', {"title": "es6 cheat sheet", "imageName": "@@folder"})
 
       <main>
         <div class="column1">
-          @@include('../../docs/@@folder/reverse/column1.html')
+          @@include('../../dist/@@folder/reverse/column1.html')
         </div>
         <div class="column2">
-          @@include('../../docs/@@folder/reverse/column2.html')
+          @@include('../../dist/@@folder/reverse/column2.html')
         </div>
       </main>
 
-      @@include('../../docs/common/footer.html')
+      @@include('../../dist/common/footer.html')
     </div>
 
     <script src="../common/lib/highlight.pack.js"></script>

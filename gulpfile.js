@@ -63,7 +63,7 @@ const buildHTML = () => {
               context: { folder: projectFolder },
             })
           )
-          .pipe(gulp.dest('./docs/'));
+          .pipe(gulp.dest('./dist/'));
       })
     );
 };
@@ -72,7 +72,7 @@ const buildSass = () => {
   return gulp
     .src(['./src/**/*.scss', '!./src/templates/**/*'])
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./docs'));
+    .pipe(gulp.dest('./dist'));
 };
 
 const buildMarkdown = () => {
@@ -80,25 +80,25 @@ const buildMarkdown = () => {
     .src(['./src/**/*.md'])
     .pipe(markdown())
     .pipe(header('\ufeff'))
-    .pipe(gulp.dest('./docs'));
+    .pipe(gulp.dest('./dist'));
 };
 
 const copyAssets = () => {
-  return gulp.src(toCopy).pipe(gulp.dest('docs/common/lib'));
+  return gulp.src(toCopy).pipe(gulp.dest('dist/common/lib'));
 };
 
 const exportAssets = () => {
-  return gulp.src('./assets/**/*', { encoding: false }).pipe(gulp.dest('./docs/assets'));
+  return gulp.src('./assets/**/*', { encoding: false }).pipe(gulp.dest('./dist/assets'));
 };
 
 const exportJS = () => {
-  return gulp.src('./src/**/*.js').pipe(gulp.dest('./docs/'));
+  return gulp.src('./src/**/*.js').pipe(gulp.dest('./dist/'));
 };
 
 // Server task
 const serve = (done) => {
   connect.server({
-    root: 'docs',
+    root: 'dist',
     port: process.env.PORT || 8080,
   });
   done();
