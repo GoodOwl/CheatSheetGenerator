@@ -58,8 +58,4 @@ typings/
 .env
 
 # Deployed web
-<<<<<<< HEAD
-/dist/
-=======
 dist/
->>>>>>> parent of 989ea34 (gitignore)
