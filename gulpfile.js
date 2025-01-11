@@ -26,6 +26,7 @@ const CATEGORY = {
   TOOLS: 'tools',
   FRAMEWORKS: 'frameworks',
   LANGUAGES: 'languages',
+  COUNTRIES: 'countries',
 };
 
 let name = '';
@@ -37,6 +38,8 @@ const getColor = (category) => {
       return 'green';
     case CATEGORY.LANGUAGES:
       return 'orange';
+    case CATEGORY.COUNTRIES:
+      return 'grey';
     case CATEGORY.TOOLS:
     default:
       return 'blue';
@@ -119,11 +122,11 @@ const moveTemplates = (done) => {
   category = argv.category;
 
   if (!name || !category) {
-    throw new Error('usage is "gulp create-new-cheat-sheet --name <name> --category <tools|frameworks|languages>');
+    throw new Error('usage is "gulp create-new-cheat-sheet --name <name> --category <tools|frameworks|languages|countries>');
   }
 
   if (!Object.values(CATEGORY).includes(category)) {
-    throw new Error('"category" must be one of: tools, frameworks, languages');
+    throw new Error('"category" must be one of: tools, frameworks, languages, countries');
   }
 
   return gulp
