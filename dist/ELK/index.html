@@ -39,14 +39,14 @@
 
       <main>
         <div class="column1">
-          <p>Elasticsearch, Kibana, Logstash version: 6.1.3 
+          ﻿<p>Elasticsearch, Kibana, Logstash version: 6.1.3 
 Date: January 30, 2018</p>
-<h1 id="build-environment">Build environment</h1>
+<h1>Build environment</h1>
 <p>Download Elasticsearch, Kibana, Logstash
 <code>https://www.elastic.co/</code></p>
-<h1 id="elasticsearch">Elasticsearch</h1>
+<h1>Elasticsearch</h1>
 <p>A full-text search and analytics engine.</p>
-<pre><code class="lang-sh">cd elasticsearch-6.1.3/bin
+<pre><code class="language-sh">cd elasticsearch-6.1.3/bin
 elasticsearch
 </code></pre>
 <p>A tool for viewing the datasets in Elasticsearch 
@@ -54,17 +54,19 @@ elasticsearch
 
         </div>
         <div class="column2">
-          <h1 id="kibana">Kibana</h1>
+          ﻿<h1>Kibana</h1>
 <p>A analytics and visualization platform</p>
-<pre><code class="lang-sh">cd kibana-6.1.3/bin
+<pre><code class="language-sh">cd kibana-6.1.3/bin
 kibana
 </code></pre>
 <p>View the cluster health in console of dev tools</p>
 <pre><code>GET /_cat/health?v
-</code></pre><p>List all indices</p>
+</code></pre>
+<p>List all indices</p>
 <pre><code>GET /_cat/indices?v
-</code></pre><p>Create an index and check</p>
-<pre><code class="lang-sh">PUT /customer?pretty
+</code></pre>
+<p>Create an index and check</p>
+<pre><code class="language-sh">PUT /customer?pretty
 GET /_cat/indices?v
 </code></pre>
 <p>Index and query a document</p>
@@ -73,7 +75,8 @@ GET /_cat/indices?v
   &quot;feature_1&quot;: &quot;feature_1_value&quot;
 }
 GET /your_index/doc/1?pretty
-</code></pre><p>View field mapping
+</code></pre>
+<p>View field mapping
 <code>GET /your_index/_mapping</code></p>
 <p>Delete index
 <code>DELETE /your_index</code></p>
@@ -112,10 +115,10 @@ Index patterns: type index name, configure settings and establish index in Kiban
 
       <main>
         <div class="column1">
-          <h1 id="logstash">Logstash</h1>
+          ﻿<h1>Logstash</h1>
 <p>A data collection engine with real-time pipelining capabilities.</p>
 <p>Set temporary path of JDK in Windows</p>
-<pre><code class="lang-sh">JAVA_HOME
+<pre><code class="language-sh">JAVA_HOME
 C:\Program Files\Java\jdk1.8.0_162
 
 PATH
@@ -124,26 +127,26 @@ PATH
 echo %JAVA_HOME%
 </code></pre>
 <p>The -e flag enables you to specify a configuration.</p>
-<pre><code class="lang-sh">cd logstash-6.1.3
+<pre><code class="language-sh">cd logstash-6.1.3
 bin/logstash -e &#39;input { stdin { } } output { stdout {} }&#39;
 </code></pre>
 <p>Verify your configuration</p>
-<pre><code class="lang-sh">logstash -f first-pipeline.conf --config.test_and_exit
+<pre><code class="language-sh">logstash -f first-pipeline.conf --config.test_and_exit
 </code></pre>
 <p>start Logstash and enable automatic config reloading</p>
-<pre><code class="lang-sh">logstash -f first-pipeline.conf --config.reload.automatic
+<pre><code class="language-sh">logstash -f first-pipeline.conf --config.reload.automatic
 </code></pre>
 <p>Template
 The filter part is optional.
 The # character at the beginning of a line is a comment.</p>
-<pre><code class="lang-sh">input {}
+<pre><code class="language-sh">input {}
 filter {}
 output {}
 </code></pre>
 
         </div>
         <div class="column2">
-          <h1 id="proxy">Proxy</h1>
+          ﻿<h1>Proxy</h1>
 <p>Add proxy on your global configuration
 <code>git config --global http.proxy http://proxy.com:1234</code></p>
 <p>Unset the global proxy
@@ -154,14 +157,14 @@ output {}
 <code>git config --global --get http.proxy</code></p>
 <p>Check your local proxy
 <code>git config --get http.proxy</code></p>
-<h1 id="commit-rules">Commit rules</h1>
+<h1>Commit rules</h1>
 <ul>
 <li>One commit for one task: if you have 2 tasks written in one file you can use <em>git add -p</em> and chose which chunk you need to add at your commit</li>
 <li>Try to commit as often as possible</li>
 <li>Do not commit a half-done work. You should only commit code when it&#39;s completed.</li>
 <li>Commit a stable version of your work: the tests should not failed</li>
 </ul>
-<h1 id="default-client">default client</h1>
+<h1>default client</h1>
 <p>Visualize git tree
 <code>gitk --all</code></p>
 <p>Graphical git operations
