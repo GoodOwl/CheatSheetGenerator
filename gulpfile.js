@@ -60,7 +60,7 @@ const buildHTML = () => {
             fileinclude({
               prefix: '@@',
               basepath: '@file',
-              context: { folder: projectFolder.toLowerCase() },
+              context: { folder: projectFolder },
             })
           )
           .pipe(gulp.dest('./docs/'));
