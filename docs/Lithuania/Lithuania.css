@@ -6,3 +6,19 @@ body {
 body main div img {
   height: 230px;
 }
+body main div .column1:first-child {
+  font-size: 12px;
+}
+body main div .column2:first-child {
+  font-size: 12px;
+}
+
+.hljs-built_in,
+.hljs-attr {
+  color: var(--grey);
+}
+
+.hljs-keyword,
+.hljs-string {
+  color: #E56399;
+}
