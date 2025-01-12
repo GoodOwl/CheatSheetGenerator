@@ -1,15 +1,17 @@
 {
   "name": "cheat-sheet-markdown",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "index.js",
   "author": "Kevin Grandemange <kgrandemange@sii.fr>",
   "scripts": {
     "build": "gulp build",
     "deploy": "node deploy.js",
     "watch": "gulp watch",
-    "start": "gulp watch"
+    "start": "gulp serve",
+    "test:e2e": "npx playwright install && npx playwright test"
   },
   "license": "MIT",
+  "type": "module",
   "devDependencies": {
     "del": "^3.0.0",
     "eslint": "^9.17.0",
@@ -30,6 +32,7 @@
     "gulp-tap": "^1.0.1",
     "gulp-template": "^6.0.0",
     "merge-stream": "^1.0.1",
+    "playwright": "^1.49.1",
     "sass": "^1.64.0",
     "yargs": "^17.7.2"
   },

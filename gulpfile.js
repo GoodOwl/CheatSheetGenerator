@@ -194,6 +194,6 @@ const createNewCheatSheet = gulp.series(
 
 // Task exports
 gulp.task('build', build);
-gulp.task('serve', gulp.series(build, serve));
+gulp.task('serve', serve);
 gulp.task('watch', gulp.series(build, gulp.parallel(serve, watchFiles)));
 gulp.task('create-new-cheat-sheet', createNewCheatSheet);
