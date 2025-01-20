@@ -16,11 +16,11 @@ Anyway, make sure to compare prices before buying:
 ```text
 kainos.lt | kaina24.lt | pricer.lt
 ```
-For Household appliances (expensive without loyalty card)
+# For Household appliances (expensive without loyalty card)
 ```text
 Senukai | Ermitažas
 ```
-For furniture
+# For furniture
 ```text
 Ikea | Jysk | baldai1.lt (online shop)
 ```
