@@ -324,6 +324,23 @@ body h2 {
   font-size: 1em;
   margin: 0.5em 0;
 }
+body table, body th, body td {
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 1em;
+  margin: 1em 0 0.5em 0;
+}
+body table {
+  width: 100%;
+}
+body tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+body th {
+  background-color: var(--currentColor);
+  color: white;
+}
 body p {
   margin: 1em 0 0.5em 0;
 }
