@@ -1,7 +1,12 @@
 
 # Bonus letters in the Alphabet
 
-![Alphabet](../assets/images/alphabet.png)
+| Letter | Pronunciation | L. | Pronunciation     |
+| ------ | ------------- | -- | ----------------- |
+| Č      | ch in chimney | C  | ts, never k       |
+| J      | y in yarn     | Ch | ch in German acht |
+| Š      | sh in shine   | dz | ds in mends       |
+| Ž      | s in pleasure | dž | j in joke         |
 
 # Important phrases
 

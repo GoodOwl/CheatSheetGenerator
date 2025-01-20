@@ -395,6 +395,22 @@ body {
         margin: 0.5em 0;
     }
 
+    table, th, td {
+        border: 1px solid;
+        border-collapse: collapse;
+        text-align: center;
+        font-size: 1em;
+        margin: 1em 0 0.5em 0;
+    }
+    table{
+        width: 100%;
+    }
+    tr:nth-child(even) {background-color: #f2f2f2;}
+    th {
+        background-color: var(--currentColor);
+        color: white;
+      }
+
     p {
         margin: 1em 0 0.5em 0;
     }
