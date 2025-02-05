@@ -33,3 +33,9 @@ More information and free help can be found here
 International House Vilnius - ihvilnius.lt
 Work In Lithuania - workinlithuania.lt
 ```
+
+# For students who apply for TRP
+
+* To get TRP as a student you need to provide a proof finace - bank account with 6x minimum monthly salary.
+* **Renewing TRP** should be done before the current TRP expires.
+* If your TRP expired but you applied for a new TRP withing 6 month its expiration, you will not have to provide a criminal history record again.
