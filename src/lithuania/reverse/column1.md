@@ -6,7 +6,7 @@
  **Kibinai** – Pastry filled with meat, mushrooms and/or vegetables
 * **Šakotis** - translate into "tree cake", they usually sell it in pieces, taste like a butter cookie, during seasonal city markets you can find it freshly baked on real fire! buy the one with butter and not margarine
 * **Kepta Duona** - Fried black bread recommended with melted cheese and garlic, a great beer snack
-* **Blynai** - Potato Pancakes, kind like "Levivot", you can add meat/fish/any kind of filling.
+* **Blynai** - Potato Pancakes, kind like "Levivot", you can add meat/fish/any kind of filling
 
 # Free attractions - Last Sunday
 The entrance to museums and galleries managed by the Lithuanian Ministry of Culture is free of charge on the last Sunday of each month.
