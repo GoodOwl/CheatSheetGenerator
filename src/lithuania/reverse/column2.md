@@ -33,11 +33,12 @@ Ikea | Jysk | baldai1.lt (online shop)
 * **Renewing TRP** must be done before the current TRP expires.
 * If your TRP expired but you applied for a new TRP withing 6 month from its expiration, you will not have to provide a criminal history record again.
 
-# consulting services
+# Consulting services
 
 More information and free help can be found here
 
 ```text
 International House Vilnius - ihvilnius.lt
 Work In Lithuania - workinlithuania.lt
+Migration information center - micenter.lt/en
 ```
