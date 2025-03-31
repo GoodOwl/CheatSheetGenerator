@@ -6,7 +6,7 @@ Heating is turned off when average temperatures gets above 10 degrees three days
 
 # Place of Residence registration
 ```text
-registracija.kaunas.lt - Apply through here 
+registracija.kaunas.lt - Apply through here. don't forget to bring the renting contract in LITHUANIAN.
 ```
 
 # General Shopping advices
