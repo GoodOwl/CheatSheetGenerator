@@ -3,7 +3,7 @@
 
 * **Šaltibarščiai** – a.k.a Barbie soup. cold summer beetroot soup
 * **Cepelinai** (zeppelins) – potato dumplings stuffed with meat, mushrooms, or cheese
- **Kibinai** – Pastry filled with meat, mushrooms and/or vegetables
+* **Kibinai** – Pastry filled with meat, mushrooms and/or vegetables
 * **Šakotis** - translate into "tree cake", they usually sell it in pieces, taste like a butter cookie, during seasonal city markets you can find it freshly baked on real fire! buy the one with butter and not margarine
 * **Kepta Duona** - Fried black bread recommended with melted cheese and garlic, a great beer snack
 * **Blynai** - Potato Pancakes, kind like "Levivot", you can add meat/fish/any kind of filling
