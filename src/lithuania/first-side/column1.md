@@ -1,5 +1,5 @@
 
-# Bonus letters in the Alphabet
+# Special letters in the Alphabet
 
 | Letter | Pronunciation | L. | Pronunciation     |
 | ------ | ------------- | -- | ----------------- |

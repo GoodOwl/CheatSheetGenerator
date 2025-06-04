@@ -15,7 +15,7 @@ LTG Link app - pre-order train tickets
 stops.lt/kaunas - bus schedules and live locations
 ```
 
-# rental cars
+# Car sharing services
 
 `Citybee | Spark | Bolt ride`
 
