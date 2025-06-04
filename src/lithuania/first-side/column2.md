@@ -34,5 +34,4 @@ Vaccination from ticks carrying encephalitis is highly recommended. Go to any ph
 
 # Food ordering (meals and groceries)
 
-`Bolt | Wolt | Barbora`
-
+`Bolt | Wolt | Barbora (Maxima) | LastMile (IKI)`

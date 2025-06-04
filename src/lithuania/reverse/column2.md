@@ -12,7 +12,7 @@ registracija.kaunas.lt - Apply through here. don't forget to bring the renting c
 # General Shopping advices
 A common practice for online shopping is ordering from **amazon.de**.
 
-Anyway, make sure to compare prices before buying:
+Price comaprison sites:
 ```text
 kainos.lt | kaina24.lt | pricer.lt
 ```
