@@ -1,0 +1,40 @@
+/* put your all custom css rules here */
+/* you must not change other scss files */
+
+body {
+  // available colors are: blue, green, purple, orange and grey
+  --currentColor: var(--blue);
+
+  main div {
+    img {
+      height: 230px;
+    }
+  }
+
+
+/* RTL Fixes for Hebrew Cheat Sheet */
+  direction: rtl;
+  text-align: right;
+
+  /* Keep embedded LTR elements rendering properly */
+  p, li {
+    unicode-bidi: plaintext;
+  }
+
+  code, strong, em {
+    unicode-bidi: isolate;
+  }
+
+  /* Force tables and code blocks back to LTR */
+  table, pre, code {
+    direction: ltr;
+    text-align: left;
+    unicode-bidi: embed;
+  }
+
+  /* Fix list margins for RTL */
+  ul, ol {
+    padding-right: 1.5rem;
+    padding-left: 0;
+  }
+}
