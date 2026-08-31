@@ -1,0 +1,29 @@
+/* put your all custom css rules here */
+/* you must not change other scss files */
+body {
+  --currentColor: var(--blue);
+  /* RTL Fixes for Hebrew Cheat Sheet */
+  direction: rtl;
+  text-align: right;
+  /* Keep embedded LTR elements rendering properly */
+  /* Force tables and code blocks back to LTR */
+  /* Fix list margins for RTL */
+}
+body main div img {
+  height: 230px;
+}
+body p, body li {
+  unicode-bidi: plaintext;
+}
+body code, body strong, body em {
+  unicode-bidi: isolate;
+}
+body table, body pre, body code {
+  direction: ltr;
+  text-align: left;
+  unicode-bidi: embed;
+}
+body ul, body ol {
+  padding-right: 1.5rem;
+  padding-left: 0;
+}
